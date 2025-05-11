@@ -124,7 +124,7 @@ header {
     top: 0;
     right: -100%;
     height: 60vh;
-    width: 50%;
+    width: 40%;
     background: rgba(10, 10, 35, 0.9); /* transparan */
     backdrop-filter: blur(5px); /* blur belakang */
     flex-direction: column;
