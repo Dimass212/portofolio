@@ -12,6 +12,14 @@ var typed = new Typed(".text", {
     navbar.classList.toggle('active');
     hamburger.classList.toggle('active');
   }
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    const navbar = document.querySelector('.navbar');
+    const hamburger = document.querySelector('.hamburger');
+    navbar.classList.remove('active');
+    hamburger.classList.remove('active');
+  });
+});
 
   const sections = document.querySelectorAll("section");
   const navLinks = document.querySelectorAll(".navbar a");
